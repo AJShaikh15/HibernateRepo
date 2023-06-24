@@ -18,6 +18,9 @@ public class Test {
 	Department hr=new Department();
 	hr.setDid(111);
 	hr.setDname("HR");
+	Department hr1=new Department();
+	hr1.setDid(121);
+	hr1.setDname("HR");
 	
 	Employee A=new Employee();
 	A.setEid(101);
