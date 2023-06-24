@@ -1,0 +1,17 @@
+package model;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Student {
+
+	private int sid;
+	private String sname;
+	@ManyToMany(cascade = CascadeType.ALL)
+	private Set<Course> c=new HashSet<>();
+}

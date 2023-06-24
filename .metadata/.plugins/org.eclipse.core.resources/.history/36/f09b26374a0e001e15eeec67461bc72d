@@ -1,0 +1,10 @@
+package model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Employee {
+
+	private int eid;
+	private String ename;
+}
